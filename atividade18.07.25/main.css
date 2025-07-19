@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    margin: 0 auto;
+    max-width: 90rem;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+section h2{
+    background-color: cadetblue;
+    flex-basis: 100%;
+}
+section div{
+    padding: 15px;
+    flex-basis: 22%; /*como quero 4 cards dentro do container temq colocar valor menor que 25%*/
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #ddd;
+
+}
+figure img{
+    width: 19em;
+    height: 28em;
+}
